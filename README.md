@@ -37,11 +37,11 @@
 4. Теперь это обычный исполняемый jar-файл
    и запустить его можно стандартной командой `Java`
    ```shell
-   java -jar baeldung-scala-sbt-assembly-fatjar-1.0.jar
+   java -jar sbt-assembly-example-1.0.0.jar
    ```
    ![Screenshot-5](screenshot5.png)
    А результат выполнения приложения, например: будет печать строки в консоль...
-5. Если заглянуть во внутрь JAR-архива `baeldung-scala-sbt-assembly-fatjar-1.0.jar` можно прочитать МЕТА-файл **META-INF/MANIFEST.MF** с данными о проекте
+5. Если заглянуть во внутрь JAR-архива `sbt-assembly-example-1.0.0.jar` можно прочитать МЕТА-файл **META-INF/MANIFEST.MF** с данными о проекте
    ```text
    Manifest-Version: 1.0
    Implementation-Title: scala-sbt
@@ -54,6 +54,12 @@
    Implementation-Vendor: scala-sbt
    ```
 
+
+### Примечание
+
+По какой-то причине встроенный SBT-плагин в Intellij IDEA работает не корректно.
+
+По этой причине, для сборки Scala-проекта в JAR на продакшн, лучше использовать отдельно-установленный SBT-сборщик **(** скачанный из https://www.scala-sbt.org/download.html **)**
 
 
 ---
