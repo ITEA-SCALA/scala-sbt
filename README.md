@@ -2,8 +2,13 @@
 
 ### How to create a self-contained jar file (fat jar) using sbt
 
-* `Tutorial`: https://eax.me/scala-sbt **(** https://andres.jaimes.net/scala/how-to-create-a-fat-jar **)**
-* `Repo`: https://www.baeldung.com/scala/sbt-fat-jar
+* `Tutorial-1`: https://eax.me/scala-sbt **(** https://andres.jaimes.net/scala/how-to-create-a-fat-jar **)**
+* `Tutorial-2`: https://www.baeldung.com/scala/sbt-fat-jar
+  * `Scala/SBT: How to deploy a single, executable Jar file (sbt-assembly)` https://alvinalexander.com/scala/sbt-how-build-single-executable-jar-file-assembly
+* `Repo-2`: https://www.baeldung.com/scala/sbt-fat-jar  **(** https://github.com/Baeldung/scala-tutorials/tree/master/scala-sbt **)**
+  * `Repo`: https://github.com/sbt/sbt-onejar
+* `sbt Reference Manual` https://www.scala-sbt.org/1.x/docs/sbt-by-example.html
+* `sbt Download` https://www.scala-sbt.org/download.html
 
 1. Перейти в корень проекта и запустить **SBT**
    ```shell
