@@ -36,10 +36,23 @@
    ```
    ![Screenshot-5](screenshot5.png)
    А результат выполнения приложения, например: будет печать строки в консоль...
-
+5. Если заглянуть во внутрь JAR-архива `baeldung-scala-sbt-assembly-fatjar-1.0.jar` можно прочитать МЕТА-файл **META-INF/MANIFEST.MF** с данными о проекте
+   ```text
+   Manifest-Version: 1.0
+   Implementation-Title: scala-sbt
+   Implementation-Version: 1.0
+   Specification-Vendor: scala-sbt
+   Specification-Title: scala-sbt
+   Implementation-Vendor-Id: scala-sbt
+   Specification-Version: 1.0
+   Main-Class: com.baeldung.scala.sbt.SbtAssemblyExample
+   Implementation-Vendor: scala-sbt
+   ```
 
 
 
 ---
+
+* [GitHub * Personal access tokens](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/KtbxLwgswrfxtLZJbFzLlPHzglccGQBXXV)
 
 **(** https://snipboard.io **)**
